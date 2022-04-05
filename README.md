@@ -1,3 +1,5 @@
+#NOTE: THIS WORK IS NOT MY OWN. I ONLY WROTE READER.PY & APP.PY TO ANNOTATE DATA
+
 # DISCO: A Dataset of Discord Chat Conversations for Software Engineering Research
 
 ## Overview
