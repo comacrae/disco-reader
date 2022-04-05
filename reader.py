@@ -284,32 +284,32 @@ class DISCO_Reader:
         return
 
 if __name__ == "__main__":
-"""
-/home/colinm/Documents/serene/disco/data/pythongeneral/Dec2019/pythongeneralDec2019.xml.out
-/home/colinm/Documents/serene/disco/data/pythongeneral/Apr2020/pythongeneralApr2020.xml.out
-/home/colinm/Documents/serene/disco/data/pythongeneral/Jan2020/pythongeneralJan2020.xml.out
-/home/colinm/Documents/serene/disco/data/pythongeneral/Aug2020/pythongeneralAug2020.xml.out
-/home/colinm/Documents/serene/disco/data/pythongeneral/Mar2020/pythongeneralMar2020.xml.out
-/home/colinm/Documents/serene/disco/data/pythongeneral/Nov2019/pythongeneralNov2019.xml.out
-/home/colinm/Documents/serene/disco/data/pythongeneral/Feb2020/pythongeneralFeb2020.xml.out
-/home/colinm/Documents/serene/disco/data/pythongeneral/Oct2020/pythongeneralOct2020.xml.out
-/home/colinm/Documents/serene/disco/data/pythongeneral/May2020/pythongeneralMay2020.xml.out
-/home/colinm/Documents/serene/disco/data/pythongeneral/Jul2020/pythongeneralJul2020.xml.out
-/home/colinm/Documents/serene/disco/data/pythongeneral/Jun2020/pythongeneralJun2020.xml.out
-/home/colinm/Documents/serene/disco/data/pythongeneral/Sep2020/pythongeneralSep2020.xml.out
-/home/colinm/Documents/serene/disco/data/racketgeneral/May2020-July2020/Racket_general_May2020-Jul2020.xml.out
-/home/colinm/Documents/serene/disco/data/racketgeneral/Feb2020-Apr2020/Racket_general_Feb2020-Apr2020.xml.out
-/home/colinm/Documents/serene/disco/data/racketgeneral/Aug2020-Oct2020/Racket_general_Aug2020-Oct2020.xml.out
-/home/colinm/Documents/serene/disco/data/racketgeneral/Nov2019-Jan2020/racketgeneral_Nov2019-Jan2020.xml.out
-/home/colinm/Documents/serene/disco/data/golang/May2020-July2020/golang_May2020-Jul2020.xml.out
-/home/colinm/Documents/serene/disco/data/golang/Feb2020-Apr2020/golang_Feb2020-Apr2020.xml.out
-/home/colinm/Documents/serene/disco/data/golang/Aug2020-Sep2020/golang_Aug2020-Sep2020.xml.out
-/home/colinm/Documents/serene/disco/data/golang/Nov2019-Jan2020/golang_Nov2019-Jan2020.xml.out
-/home/colinm/Documents/serene/disco/data/clojurians/May2020-July2020/clojure_May2020-Jul2020.xml.out
-/home/colinm/Documents/serene/disco/data/clojurians/Feb2020-Apr2020/clojure_Feb2020-Apr2020.xml.out
-/home/colinm/Documents/serene/disco/data/clojurians/Aug2020-Oct2020/clojure_Aug2020-Oct2020.xml.out
-/home/colinm/Documents/serene/disco/data/clojurians/Nov2019-Jan2020/clojure_Nov2019-Jan2020.xml.out
-"""
+    """
+    /home/colinm/Documents/serene/disco/data/pythongeneral/Dec2019/pythongeneralDec2019.xml.out
+    /home/colinm/Documents/serene/disco/data/pythongeneral/Apr2020/pythongeneralApr2020.xml.out
+    /home/colinm/Documents/serene/disco/data/pythongeneral/Jan2020/pythongeneralJan2020.xml.out
+    /home/colinm/Documents/serene/disco/data/pythongeneral/Aug2020/pythongeneralAug2020.xml.out
+    /home/colinm/Documents/serene/disco/data/pythongeneral/Mar2020/pythongeneralMar2020.xml.out
+    /home/colinm/Documents/serene/disco/data/pythongeneral/Nov2019/pythongeneralNov2019.xml.out
+    /home/colinm/Documents/serene/disco/data/pythongeneral/Feb2020/pythongeneralFeb2020.xml.out
+    /home/colinm/Documents/serene/disco/data/pythongeneral/Oct2020/pythongeneralOct2020.xml.out
+    /home/colinm/Documents/serene/disco/data/pythongeneral/May2020/pythongeneralMay2020.xml.out
+    /home/colinm/Documents/serene/disco/data/pythongeneral/Jul2020/pythongeneralJul2020.xml.out
+    /home/colinm/Documents/serene/disco/data/pythongeneral/Jun2020/pythongeneralJun2020.xml.out
+    /home/colinm/Documents/serene/disco/data/pythongeneral/Sep2020/pythongeneralSep2020.xml.out
+    /home/colinm/Documents/serene/disco/data/racketgeneral/May2020-July2020/Racket_general_May2020-Jul2020.xml.out
+    /home/colinm/Documents/serene/disco/data/racketgeneral/Feb2020-Apr2020/Racket_general_Feb2020-Apr2020.xml.out
+    /home/colinm/Documents/serene/disco/data/racketgeneral/Aug2020-Oct2020/Racket_general_Aug2020-Oct2020.xml.out
+    /home/colinm/Documents/serene/disco/data/racketgeneral/Nov2019-Jan2020/racketgeneral_Nov2019-Jan2020.xml.out
+    /home/colinm/Documents/serene/disco/data/golang/May2020-July2020/golang_May2020-Jul2020.xml.out
+    /home/colinm/Documents/serene/disco/data/golang/Feb2020-Apr2020/golang_Feb2020-Apr2020.xml.out
+    /home/colinm/Documents/serene/disco/data/golang/Aug2020-Sep2020/golang_Aug2020-Sep2020.xml.out
+    /home/colinm/Documents/serene/disco/data/golang/Nov2019-Jan2020/golang_Nov2019-Jan2020.xml.out
+    /home/colinm/Documents/serene/disco/data/clojurians/May2020-July2020/clojure_May2020-Jul2020.xml.out
+    /home/colinm/Documents/serene/disco/data/clojurians/Feb2020-Apr2020/clojure_Feb2020-Apr2020.xml.out
+    /home/colinm/Documents/serene/disco/data/clojurians/Aug2020-Oct2020/clojure_Aug2020-Oct2020.xml.out
+    /home/colinm/Documents/serene/disco/data/clojurians/Nov2019-Jan2020/clojure_Nov2019-Jan2020.xml.out
+    """
     reader = DISCO_Reader("./data")
     """to easily get paths if needed
     for path in reader.get_file_paths(): 
