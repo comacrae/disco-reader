@@ -1,4 +1,4 @@
-import os,json,csv,uuid,re
+import os,json,csv,re
 import pandas as pd
 import xml.etree.ElementTree as et
 
@@ -100,7 +100,6 @@ class DISCO_Reader:
                 }
         for k in msg.keys():
             msg[k] = e.find(k).text
-        msg['id'] = str(uuid.uuid4().int) # create unique msg id
         msg['conversation_id'] = e.attrib['conversation_id'] #thread id
         return msg
 
@@ -240,7 +239,6 @@ class DISCO_Reader:
                 match_msg_text = match_msg['text']
                 match_msg_user = match_msg['user']
                 match_msg_index = match_msg['index']
-                match_msg_id = match_msg['id']
                 target_str = f"{match_msg_index}:{match_msg_user}|{match_msg_text}"
 
                 os.system('clear')
@@ -254,6 +252,10 @@ class DISCO_Reader:
 
                     if msg_index ==match_msg_index:
                         print(bcolors.WARNING + output_str + bcolors.ENDC)
+                    elif msg_user == match_msg_user:
+                        print(bcolors.OKCYAN + output_str + bcolors.ENDC)
+                    elif '?' in msg_text:
+                        print(bcolors.HEADER + output_str + bcolors.ENDC)
                     else:
                         print(bcolors.OKGREEN + output_str + bcolors.ENDC)
 
@@ -285,6 +287,8 @@ class DISCO_Reader:
 
 if __name__ == "__main__":
     """
+    d = done
+    e = empty
     /home/colinm/Documents/serene/disco/data/pythongeneral/Dec2019/pythongeneralDec2019.xml.out
     /home/colinm/Documents/serene/disco/data/pythongeneral/Apr2020/pythongeneralApr2020.xml.out
     /home/colinm/Documents/serene/disco/data/pythongeneral/Jan2020/pythongeneralJan2020.xml.out
@@ -297,10 +301,10 @@ if __name__ == "__main__":
     /home/colinm/Documents/serene/disco/data/pythongeneral/Jul2020/pythongeneralJul2020.xml.out
     /home/colinm/Documents/serene/disco/data/pythongeneral/Jun2020/pythongeneralJun2020.xml.out
     /home/colinm/Documents/serene/disco/data/pythongeneral/Sep2020/pythongeneralSep2020.xml.out
-    /home/colinm/Documents/serene/disco/data/racketgeneral/May2020-July2020/Racket_general_May2020-Jul2020.xml.out
-    /home/colinm/Documents/serene/disco/data/racketgeneral/Feb2020-Apr2020/Racket_general_Feb2020-Apr2020.xml.out
-    /home/colinm/Documents/serene/disco/data/racketgeneral/Aug2020-Oct2020/Racket_general_Aug2020-Oct2020.xml.out
-    /home/colinm/Documents/serene/disco/data/racketgeneral/Nov2019-Jan2020/racketgeneral_Nov2019-Jan2020.xml.out
+d   /home/colinm/Documents/serene/disco/data/racketgeneral/May2020-July2020/Racket_general_May2020-Jul2020.xml.out
+e   /home/colinm/Documents/serene/disco/data/racketgeneral/Feb2020-Apr2020/Racket_general_Feb2020-Apr2020.xml.out
+e   /home/colinm/Documents/serene/disco/data/racketgeneral/Aug2020-Oct2020/Racket_general_Aug2020-Oct2020.xml.out
+d   /home/colinm/Documents/serene/disco/data/racketgeneral/Nov2019-Jan2020/racketgeneral_Nov2019-Jan2020.xml.out
     /home/colinm/Documents/serene/disco/data/golang/May2020-July2020/golang_May2020-Jul2020.xml.out
     /home/colinm/Documents/serene/disco/data/golang/Feb2020-Apr2020/golang_Feb2020-Apr2020.xml.out
     /home/colinm/Documents/serene/disco/data/golang/Aug2020-Sep2020/golang_Aug2020-Sep2020.xml.out
@@ -315,6 +319,6 @@ if __name__ == "__main__":
     for path in reader.get_file_paths(): 
         print(path) 
     """
-    reader.load_xml("/home/colinm/Documents/serene/disco/data/pythongeneral/Dec2019/pythongeneralDec2019.xml.out")
+    reader.load_xml("/home/colinm/Documents/serene/disco/data/golang/May2020-July2020/golang_May2020-Jul2020.xml.out")
     reader.find_so_posts("stackoverflow.com") # can use to search w/ regexes
-    reader.label_matches(output_dir_path="./output/python", start_conversation_id=None) # actual labeling method
+    reader.label_matches(output_dir_path="./output/golang", start_conversation_id="129") # actual labeling method

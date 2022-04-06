@@ -1,0 +1,27 @@
+{
+    "related_post": {
+        "ts": "2020-10-01T04:51:08.974000",
+        "user": "Kuran",
+        "text": "Can I fix it @hmmm ?",
+        "id": "123872178318254090207474347032234641744",
+        "conversation_id": "14",
+        "index": 54
+    },
+    "so_post": {
+        "ts": "2020-10-01T04:51:58.392000",
+        "user": "Katja",
+        "text": "https://stackoverflow.com/questions/3122145/zliberrorerror3whiledecompressingincorrectheadercheck",
+        "id": "318952670585621333568413055054332075154",
+        "conversation_id": "14",
+        "index": 55
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "asdfasdf",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

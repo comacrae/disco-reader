@@ -1,0 +1,27 @@
+{
+    "related_post": {
+        "ts": "2020-10-01T14:11:41.751000",
+        "user": "Beautiful",
+        "text": "https://stackoverflow.com/questions/15478127/removefinalcharacterfromstring",
+        "id": "156918693487304403726755249837067284027",
+        "conversation_id": "43",
+        "index": 159
+    },
+    "so_post": {
+        "ts": "2020-10-01T14:11:41.751000",
+        "user": "Beautiful",
+        "text": "https://stackoverflow.com/questions/15478127/removefinalcharacterfromstring",
+        "id": "156918693487304403726755249837067284027",
+        "conversation_id": "43",
+        "index": 159
+    },
+    "category": "Debugging Solution",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

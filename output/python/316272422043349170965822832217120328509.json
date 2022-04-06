@@ -1,0 +1,27 @@
+{
+    "related_post": {
+        "ts": "2020-10-01T14:18:12.012000",
+        "user": "Jaydin",
+        "text": "ohk also i need to make a function for a B.I class string",
+        "id": "141260581886749139010117082074797607924",
+        "conversation_id": "43",
+        "index": 192
+    },
+    "so_post": {
+        "ts": "2020-10-01T14:11:41.751000",
+        "user": "Beautiful",
+        "text": "https://stackoverflow.com/questions/15478127/removefinalcharacterfromstring",
+        "id": "316272422043349170965822832217120328509",
+        "conversation_id": "43",
+        "index": 159
+    },
+    "category": "Validating Solution",
+    "comments": "asdf",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

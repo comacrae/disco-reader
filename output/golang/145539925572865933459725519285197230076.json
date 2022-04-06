@@ -1,0 +1,27 @@
+{
+    "related_post": {
+        "ts": "2020-05-03T02:27:48.635000",
+        "user": "Kenzli",
+        "text": "Anyone with experience making a web crawler and recieving EOF errors",
+        "id": "226201607979628897939114037940790010222",
+        "conversation_id": "52",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-05-03T02:44:41.607000",
+        "user": "Maram",
+        "text": "https://stackoverflow.com/questions/624857/findingwhichprocesswaskilledbylinuxoomkiller",
+        "id": "145539925572865933459725519285197230076",
+        "conversation_id": "52",
+        "index": 39
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "related to their suggested method for debugging but not a direct answer",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

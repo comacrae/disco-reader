@@ -1,0 +1,27 @@
+{
+    "related_post": {
+        "ts": "2020-10-01T14:10:55.781000",
+        "user": "Lalah",
+        "text": "guys how would i make the coding so it removes the last letter and space",
+        "id": "326254753624684033349161198341873089179",
+        "conversation_id": "43",
+        "index": 156
+    },
+    "so_post": {
+        "ts": "2020-10-01T14:11:41.751000",
+        "user": "Beautiful",
+        "text": "https://stackoverflow.com/questions/15478127/removefinalcharacterfromstring",
+        "id": "295957589910333318417729364606526679819",
+        "conversation_id": "43",
+        "index": 159
+    },
+    "category": "Validating Solution",
+    "comments": "asdf",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}
