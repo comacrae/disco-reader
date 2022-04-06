@@ -280,7 +280,8 @@ class DISCO_Reader:
                         'comments': comments,
                         'meta': self.get_meta_data_dict()
                         }
-                with open(f"{output_dir_path}/{match_msg_id}.json", "w+") as f:
+                filename = f"{match_conversation_id}-{match_msg_index}.json"
+                with open(f"{output_dir_path}/{filename}", "w+") as f:
                     json.dump(dump, f, indent=4)
             i=i+1
         return
